@@ -1,0 +1,54 @@
+.recent-cards {
+  border-radius: 20px;
+  background: #fff;
+  min-width: 49%;
+  h4 {
+    background-color: #548df7;
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    padding: 15px;
+  }
+  ul {
+    li {
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      &:not(:last-child) {
+        padding-bottom: 0;
+        div {
+          section {
+            width: calc(100% - 50px);
+            border-bottom: 1px solid #f4ded4;
+          }
+        }
+      }
+      > div {
+        display: flex;
+      }
+    }
+  }
+  .circular {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-right: 15px;
+    img {
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: rgb(84, 141, 247);
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+  }
+}

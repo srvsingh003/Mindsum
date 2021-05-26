@@ -1,0 +1,19 @@
+.dateElement {
+  display: flex;
+  flex-direction: row;
+  > ul {
+    display: flex;
+    list-style: none;
+
+    margin-right: 15px;
+    margin-left: 15px;
+    li {
+      padding: 15px;
+      background: #fff;
+      border-radius: 30px;
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+  }
+}

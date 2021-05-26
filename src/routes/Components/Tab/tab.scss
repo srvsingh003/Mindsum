@@ -1,0 +1,32 @@
+.tab-bar {
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-self: start;
+  padding: 40px 0;
+  li {
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      svg {
+        g {
+          text {
+            fill: rgb(84, 141, 247);
+          }
+          g {
+            path,
+            circle,
+            rect {
+              fill: rgb(84, 141, 247);
+            }
+          }
+        }
+      }
+    }
+  }
+}
